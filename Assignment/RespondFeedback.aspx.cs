@@ -27,7 +27,7 @@ namespace Assignment
                 strValues += "&DateTime=" + lblDateTime.Text;
 
                 //lbl_Values.Text = strValues;
-                Response.Redirect("ConfirmRespond.aspx?" + strValues);
+                Response.Redirect("ConfrimRespond.aspx?" + strValues);
             }
         }
     }
